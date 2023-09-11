@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+main {
+  max-width: 1200px;
+  margin: 1rem auto 0 auto;
+  display: flex;
+  justify-content: center;
+  background-image: url(ikoner/baggrund.svg);
+}
+
 /*** menu ***/
 header {
   z-index: 100;
@@ -53,11 +61,23 @@ a:hover {
   transform: scale(150%);
 }
 
+/* INDEX */
+.logofront {
+  border-radius: 50%;
+}
+
+main a:hover {
+  transform: scale(110%);
+}
+
 /** DESKTOP **/
 @media (min-width: 750px) {
   main {
     max-width: 1200px;
     margin: 1rem auto 0 auto;
+    display: flex;
+    justify-content: center;
+    background-image: url(ikoner/baggrund.svg);
   }
   /*** menu ***/
   header {
@@ -106,5 +126,14 @@ a:hover {
 
   a:hover {
     transform: scale(150%);
+  }
+
+  /* INDEX */
+  .logofront {
+    border-radius: 50%;
+  }
+
+  main a:hover {
+    transform: scale(110%);
   }
 }
