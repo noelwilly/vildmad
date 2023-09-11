@@ -15,7 +15,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: brown;
+  background-color: #333333;
 }
 
 .vmlogo {
@@ -50,7 +50,7 @@ a {
 }
 
 a:hover {
-  transform: scale(140%);
+  transform: scale(150%);
 }
 
 /** DESKTOP **/
@@ -70,7 +70,7 @@ a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: brown;
+    background-color: #333333;
   }
 
   .vmlogo {
@@ -105,6 +105,6 @@ a:hover {
   }
 
   a:hover {
-    transform: scale(140%);
+    transform: scale(150%);
   }
 }
