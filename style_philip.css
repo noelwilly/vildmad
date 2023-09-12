@@ -1,0 +1,30 @@
+.image-wrapper {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center-align both image and text */
+}
+
+.image-wrapper img {
+  max-width: 80%; /* Reduce the width to 50% of the container's width */
+  max-height: 80%; /* Reduce the height to 50% of the container's height */
+  width: auto;
+  height: auto;
+}
+
+.lovskov-category,
+.naleskov-category {
+  font-family: "Lilita One", cursive;
+  color: #d57634;
+  font-size: 40px; /* Adjust the font size as needed */
+  margin-top: 10px; /* Add some spacing between the image and text */
+}
+
+@media (min-width: 750px) {
+  .category-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px; /* Adjust the gap as needed */
+    text-align: center; /* Center-align the content */
+    max-width: 100%;
+  }
+}
