@@ -1,0 +1,15 @@
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two equal columns for the images */
+  gap: 10px; /* Add gap for spacing between images */
+}
+
+.image-container a {
+  display: flex;
+  justify-content: center; /* Horizontally center the images within each cell */
+  align-items: center; /* Vertically center the images within each cell */
+}
+
+.image-container img {
+  max-width: 100%; /* Ensure images don't exceed their container width */
+}
