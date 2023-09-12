@@ -1,5 +1,5 @@
 body {
-  background-image: url("/ikoner/baggrund.svg");
+  background-image: url("/img/baggrund.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -16,7 +16,7 @@ main {
   margin: 1rem auto 0 auto;
   display: flex;
   justify-content: center;
-  background-image: url(ikoner/baggrund.svg);
+  background-image: url(img/baggrund.svg);
 }
 
 /*** menu ***/
@@ -111,7 +111,7 @@ main a:hover {
 
 @media (max-width: 750px) {
   body {
-    background-image: url("/ikoner/baggrund.svg");
+    background-image: url("/img/");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
