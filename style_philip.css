@@ -5,10 +5,8 @@
 }
 
 .image-wrapper img {
-  max-width: 80%; /* Reduce the width to 50% of the container's width */
-  max-height: 80%; /* Reduce the height to 50% of the container's height */
-  width: auto;
-  height: auto;
+  max-width: 65%; /* Reduce the width to 50% of the container's width */
+  max-height: 65%; /* Reduce the height to 50% of the container's height */
 }
 
 .lovskov-category,
