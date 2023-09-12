@@ -56,7 +56,9 @@ a {
   text-decoration: none;
   font-weight: 700;
   transition: transform 0.5s ease;
-  color: #333333;
+  font-family: "Lilita One", cursive;
+  font-size: 30px;
+  color: #2a1a8a;
 }
 
 a:hover {
