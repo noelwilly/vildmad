@@ -107,7 +107,7 @@ main a:hover {
   object-fit: contain;
 }
 
-/** Mobile **/
+/** Desktop **/
 
 @media (max-width: 750px) {
   body {
