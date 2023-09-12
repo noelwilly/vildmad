@@ -1,6 +1,70 @@
-.h1_1 {
-  text-align: center;
-  font-family: "Lilita One", cursive;
-  color: #d57634;
-  font-size: 70px;
+/* Desktop Media Query */
+@media screen and (min-width: 1024px) {
+  body {
+    background-image: url("/ikoner/baggrund.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .h1_1 {
+    text-align: center;
+    font-family: "Lilita One", cursive;
+    color: #d57634;
+    font-size: 90px;
+  }
+
+  .centered-image a {
+    display: block;
+    text-align: center;
+    transition: transform 0.2s;
+  }
+
+  .centered-image img {
+    max-width: 35%;
+    height: auto;
+    margin: 0 auto;
+    margin-right: 10px;
+  }
+
+  .centered-image a:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 767px) {
+  body {
+    background-image: url("/ikoner/baggrund.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .h1_1 {
+    text-align: center;
+    font-family: "Lilita One", cursive;
+    color: #d57634;
+    font-size: 10px;
+  }
+
+  .centered-image a {
+    display: block;
+    text-align: center;
+  }
+
+  .centered-image img {
+    max-width: 20%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+  }
 }
