@@ -108,13 +108,7 @@ main a:hover {
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
-  main {
-    max-width: 1200px;
-    margin: 1rem auto 0 auto;
-    display: flex;
-    justify-content: center;
-    background-image: url(img/baggrund.svg);
-  }
+
   /*** menu ***/
   header {
     z-index: 100;
