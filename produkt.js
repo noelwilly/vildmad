@@ -5,7 +5,7 @@ const key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZi
 const urlParams = new URLSearchParams(window.location.search);
 const id = urlParams.get("id");
 
-fetch(url + "/rest/v1/vildapi?id=eq." + id, {
+fetch(url + "/rest/v1/vildapi?select=navn,season,billeder,kategori,sankeland,subkategori&id=eq." + id, {
   method: "GET",
   headers: {
     apikey: key,
@@ -18,6 +18,7 @@ function showProduct(product) {
   console.log(product);
 
   document.querySelector("h3").textContent = product.navn;
+
   document.querySelector(".vmPic").src = product.billeder;
 
   document.querySelector("h4").textContent = product.sankeland;
