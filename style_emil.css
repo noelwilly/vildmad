@@ -18,8 +18,7 @@
   .image_container {
     text-align: center;
     position: relative;
-    top: 50px;
-    left: 10px;
+    top: 100px;
   }
 
   /* Style for the image */
@@ -42,12 +41,8 @@
     font-family: "Lilita One", cursive;
     color: #fcc902;
     font-size: 30px;
-    position: absolute;
-    bottom: 260px; /* Adjust the distance from the bottom to add spacing */
-    left: 50%;
-    transform: translateX(-50%);
-    opacity: 1;
-    width: 100%;
+    bottom: 20px; /* Adjust the distance from the bottom to add spacing */
+    margin-top: 10px;
   }
 }
 
@@ -63,7 +58,7 @@
 
   /* Style for the image */
   .image_container img {
-    max-width: 80%;
+    max-width: 63%;
     height: auto;
     cursor: pointer;
     transition: transform 0.2s ease-in-out;
@@ -79,13 +74,10 @@
   .image_title {
     text-align: center;
     font-family: "Lilita One", cursive;
-    color: #d57634;
-    font-size: 70px;
-    position: absolute;
+    color: #fcc902;
+    text-shadow: 3px 3px #000000;
+    font-size: 60px;
     bottom: 20px; /* Adjust the distance from the bottom to add spacing */
-    left: 50%;
-    transform: translateX(-50%);
-    opacity: 1;
-    width: 100%;
+    margin-top: 10px;
   }
 }
