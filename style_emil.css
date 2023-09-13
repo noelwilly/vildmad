@@ -1,48 +1,78 @@
 /** Mobile **/
 
 @media (max-width: 767px) {
-  .image-container {
+  /* Style for the image container */
+  .image_container {
     text-align: center;
-    padding-top: 60px;
-    padding-left: 10px;
+    position: relative;
+    top: 50px;
+    left: 10px;
   }
 
-  .image-container img {
-    max-width: 70%;
+  /* Style for the image */
+  .image_container img {
+    max-width: 75%;
     height: auto;
     cursor: pointer;
+    transition: transform 0.2s ease-in-out;
   }
 
-  .image-title {
+  /* Style for the anchor element */
+  .image_container a {
+    cursor: pointer;
+    display: inline-block;
+  }
+
+  /* Style for the image title */
+  .image_title {
     text-align: center;
     font-family: "Lilita One", cursive;
     color: #d57634;
     font-size: 30px;
+    position: absolute;
+    bottom: 260px; /* Adjust the distance from the bottom to add spacing */
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 1;
+    width: 100%;
   }
 }
 
 /** Desktop **/
 
 @media (min-width: 750px) {
-  .image-container {
+  /* Style for the image container */
+  .image_container {
     text-align: center;
+    position: relative;
+    top: 30px;
   }
 
-  .image-container img {
-    max-width: 35%;
+  /* Style for the image */
+  .image_container img {
+    max-width: 80%;
     height: auto;
     cursor: pointer;
-    transition: transform 0.2s; /* Add a smooth transition effect */
+    transition: transform 0.2s ease-in-out;
   }
 
-  .image-container img:hover {
-    transform: scale(1.1); /* Increase the size by 10% on hover */
+  /* Style for the anchor element */
+  .image_container a {
+    cursor: pointer;
+    display: inline-block;
   }
 
-  .image-title {
+  /* Style for the image title */
+  .image_title {
     text-align: center;
     font-family: "Lilita One", cursive;
     color: #d57634;
     font-size: 70px;
+    position: absolute;
+    bottom: 20px; /* Adjust the distance from the bottom to add spacing */
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 1;
+    width: 100%;
   }
 }
