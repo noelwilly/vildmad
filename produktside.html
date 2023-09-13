@@ -1,60 +1,39 @@
 <!DOCTYPE html>
 <html lang="da">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="produkt.css" />
-    <title>Råvarer</title>
-  </head>
 
-  <body>
-    <header>
-      <nav>
-        <a class="vmlogo" href="index.html">
-          <img src="img/vmlogo.svg" alt="vmlogo"
-        /></a>
-        <ul class="menu">
-          <li><a href="kategori.html">SKOV</a></li>
-          <li><a href="produktside.html">RÅVARER</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section class="produktliste">
-        <template id="vmProduktTemplate">
-          <article class="vmProdukt">
-            <img class="vmPic" src="img/testsvamp.png" alt="pic1" />
-            <h3>Kantarel, almindelig</h3>
-            <hr />
-            <h4>Sankeland</h4>
-            <p class="kategori"></p>
-            <hr />
-            <div class="season_container">
-              <img
-                class="season1"
-                src="img/icon_season_spring.webp"
-                alt="forår"
-              />
-              <img
-                class="season2"
-                src="img/icon_season_summer.webp"
-                alt="sommer"
-              />
-              <img
-                class="season3"
-                src="img/icon_season_autumn.webp"
-                alt="efterår"
-              />
-            </div>
-            <div class="lokation">
-              <p>Du finder mig typisk her: <span class="lokationApi"></span></p>
-            </div>
-          </article>
-        </template>
-      </section>
-    </main>
-    <footer></footer>
-    <script src="script.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="produkt.css">
+  <title>Råvarer</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a class="vmlogo" href="index.html">
+        <img src="img/vmlogo.svg" alt="vmlogo"></a>
+      <ul class="menu">
+        <li><a href="kategori.html">SKOV</a></li>
+        <li><a href="produktside.html">RÅVARER</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="produktliste">
+      <template id="vmProduktTemplate">
+        <article class="vmProdukt">
+          <a class="seProd" href="produkt.html">
+            <img class="vmPic" src="img/testsvamp.png" alt="pic1">
+          </a>
+          <h3>Kantarel, almindelig</h3>
+        </article>
+      </template>
+    </section>
+  </main>
+  <footer></footer>
+  <script src="script.js"></script>
+</body>
+
 </html>

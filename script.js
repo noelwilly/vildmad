@@ -27,21 +27,9 @@ function showProduct(product) {
   const copy = template.cloneNode(true);
   // ændre indhold
   copy.querySelector("h3").textContent = product.navn;
-  copy.querySelector("h4").textContent = product.sankeland;
-  copy.querySelector(".kategori").textContent = product.kategori;
   copy.querySelector(".vmPic").src = product.billeder;
-  copy.querySelector(".lokationApi").textContent = product.subkategori;
 
-  // seasons
-  if (product.season.includes("Forår")) {
-    copy.querySelector(".season1").classList.add("seasonOn");
-  }
-  if (product.season.includes("Sommer")) {
-    copy.querySelector(".season2").classList.add("seasonOn");
-  }
-  if (product.season.includes("Efterår")) {
-    copy.querySelector(".season3").classList.add("seasonOn");
-  }
+  copy.querySelector(".seProd").setAttribute("href", `produkt.html?id=${product.id}`);
 
   // appende
   document.querySelector(".produktliste").appendChild(copy);
