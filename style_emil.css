@@ -1,54 +1,48 @@
-.h1_1 {
-  text-align: center;
-  font-family: "Lilita One", cursive;
-  color: #d57634;
-  font-size: 70px;
-}
+/** Mobile **/
 
-.centered-image a {
-  display: block;
-  text-align: center;
-  transition: transform 0.2s;
-}
+@media (max-width: 767px) {
+  .image-container {
+    text-align: center;
+    padding-top: 60px;
+    padding-left: 10px;
+  }
 
-.centered-image img {
-  max-width: 35%;
-  height: auto;
-  margin: 0 auto;
-  margin-right: 10px;
-}
+  .image-container img {
+    max-width: 70%;
+    height: auto;
+    cursor: pointer;
+  }
 
-.centered-image a:hover {
-  transform: scale(1.1);
-  cursor: pointer;
-}
-
-/** Mobile**/
-
-@media screen and (max-width: 767px) {
-  .h1_1 {
+  .image-title {
     text-align: center;
     font-family: "Lilita One", cursive;
     color: #d57634;
     font-size: 30px;
   }
+}
 
-  .centered-image a {
-    display: block;
+/** Desktop **/
+
+@media (min-width: 750px) {
+  .image-container {
     text-align: center;
-    transition: transform 0.2s;
-    padding-left: 25px;
   }
 
-  .centered-image img {
-    max-width: 70%;
+  .image-container img {
+    max-width: 35%;
     height: auto;
-    margin: 0 auto;
-    margin-right: 10px;
+    cursor: pointer;
+    transition: transform 0.2s; /* Add a smooth transition effect */
   }
 
-  .centered-image a:hover {
-    transform: scale(1.1);
-    cursor: pointer;
+  .image-container img:hover {
+    transform: scale(1.1); /* Increase the size by 10% on hover */
+  }
+
+  .image-title {
+    text-align: center;
+    font-family: "Lilita One", cursive;
+    color: #d57634;
+    font-size: 70px;
   }
 }
