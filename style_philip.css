@@ -12,7 +12,8 @@
 .lovskov-category,
 .naleskov-category {
   font-family: "Lilita One", cursive;
-  color: #d57634;
+  color: #fcc902;
+  text-shadow: 3px 3px #000000;
   font-size: 40px; /* Adjust the font size as needed */
   margin-top: 10px; /* Add some spacing between the image and text */
 }

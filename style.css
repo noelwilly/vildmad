@@ -22,7 +22,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #d57634;
+  background-color: #17984e;
   border-radius: 50%;
   box-shadow: 10px 10px 5px gray;
 }
@@ -58,7 +58,8 @@ a {
   transition: transform 0.5s ease;
   font-family: "Lilita One", cursive;
   font-size: 30px;
-  color: #2a1a8a;
+  color: #fcc902;
+  text-shadow: 2px 2px #000000;
 }
 
 a:hover {
@@ -138,7 +139,7 @@ main a:hover {
   nav {
     display: flex;
     justify-content: center;
-    background-color: #d57634;
+    background-color: #17984e;
   }
 
   .vmlogo {
