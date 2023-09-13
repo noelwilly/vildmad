@@ -1,4 +1,4 @@
-const url = "https://pexwboaieovroxjkczsc.supabase.co";
+/* const url = "https://pexwboaieovroxjkczsc.supabase.co";
 
 const key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBleHdib2FpZW92cm94amtjenNjIiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTQ1MDEwNzgsImV4cCI6MjAxMDA3NzA3OH0.6BHSqoC3DM7BXM7_X4Syq5W3u_U5MKO7EPClIkefExs";
 
@@ -24,4 +24,4 @@ function showSkov(skov) {
   clone.querySelector("a").href = `produktside.html?sankeland=${skov.sankeland}`;
   // appender
   document.querySelector(".category-container").appendChild(clone);
-}
+} */
