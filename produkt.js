@@ -5,7 +5,7 @@ const key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZi
 const urlParams = new URLSearchParams(window.location.search);
 const id = urlParams.get("id");
 
-fetch(url + "/rest/v1/vildapi" + id, {
+fetch(url + "/rest/v1/vildapi?id=eq." + id, {
   method: "GET",
   headers: {
     apikey: key,
@@ -17,23 +17,23 @@ fetch(url + "/rest/v1/vildapi" + id, {
 function showProduct(product) {
   console.log(product);
 
-  copy.querySelector(".produktside h3").textContent = product.navn;
-  copy.querySelector(".produktside .vmPic").src = product.billeder;
+  document.querySelector("h3").textContent = product.navn;
+  document.querySelector(".vmPic").src = product.billeder;
 
-  copy.querySelector(".produktside h4").textContent = product.sankeland;
-  copy.querySelector(".produktside .kategori").textContent = product.kategori;
+  document.querySelector("h4").textContent = product.sankeland;
+  document.querySelector(".kategori").textContent = product.kategori;
 
-  copy.querySelector(".produktside .lokationApi").textContent = product.subkategori;
+  document.querySelector(".lokationApi").textContent = product.subkategori;
 
   // seasons
   if (product.season.includes("Forår")) {
-    copy.querySelector(".season1").classList.add("seasonOn");
+    document.querySelector(".season1").classList.add("seasonOn");
   }
   if (product.season.includes("Sommer")) {
-    copy.querySelector(".season2").classList.add("seasonOn");
+    document.querySelector(".season2").classList.add("seasonOn");
   }
   if (product.season.includes("Efterår")) {
-    copy.querySelector(".season3").classList.add("seasonOn");
+    document.querySelector(".season3").classList.add("seasonOn");
   }
 }
 
