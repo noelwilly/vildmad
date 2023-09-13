@@ -69,7 +69,7 @@ a:hover {
 .season1,
 .season2,
 .season3 {
-  opacity: 15%;
+  opacity: 30%;
 }
 
 .seasonOn {
@@ -87,17 +87,9 @@ main a:hover {
 
 /* råvarer */
 
-.produktliste article {
-  background-color: #fffef4;
-}
-
 .prodBoks {
   display: grid;
   gap: 1rem;
-}
-
-.soldOut {
-  opacity: 0.5;
 }
 
 .vmPic {
@@ -138,7 +130,7 @@ main a:hover {
 
   .vmlogo {
     transform: scale(145%);
-    margin-left: 0rem;
+    margin-left: -5.5rem;
   }
 
   header img {
