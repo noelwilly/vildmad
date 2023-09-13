@@ -1,46 +1,57 @@
 <!DOCTYPE html>
 <html lang="da">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Råvarer</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav>
-            <a class="vmlogo" href="index.html">
-                <img src="img/vmlogo.svg" alt="vmlogo"></a>
-            <ul class="menu">
-                <li><a href="kategori.html">SKOV</a></li>
-                <li><a href="produktside.html">RÅVARER</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <a class="vmlogo" href="index.html">
+          <img src="img/vmlogo.svg" alt="vmlogo"
+        /></a>
+        <ul class="menu">
+          <li><a href="kategori.html">SKOV</a></li>
+          <li><a href="produktside.html">RÅVARER</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <section class="produktliste">
-            <template id="vmProduktTemplate">
-                <article class="vmProdukt">
-                    <img class="vmPic" src="img/testsvamp.png" alt="pic1">
-                    <h3>Kantarel, almindelig</h3>
-                    <h4>Svampe</h4>
-                    <p class="kategori">Løvskov</p>
-                    <div class="season_container">
-                        <img class="season1" src="img/icon_season_spring.webp" alt="forår">
-                        <img class="season2" src="img/icon_season_summer.webp" alt="sommer">
-                        <img class="season3" src="img/icon_season_autumn.webp" alt="efterår">
-                    </div>
-                    <div class="lokation">
-                        <p>Du finder mig typisk her: <span class="lokationApi"></span></p>
-                    </div>
-                </article>
-            </template>
-        </section>
+      <section class="produktliste">
+        <template id="vmProduktTemplate">
+          <article class="vmProdukt">
+            <img class="vmPic" src="img/testsvamp.png" alt="pic1" />
+            <h3>Kantarel, almindelig</h3>
+            <h4>Svampe</h4>
+            <p class="kategori">Løvskov</p>
+            <div class="season_container">
+              <img
+                class="season1"
+                src="img/icon_season_spring.webp"
+                alt="forår"
+              />
+              <img
+                class="season2"
+                src="img/icon_season_summer.webp"
+                alt="sommer"
+              />
+              <img
+                class="season3"
+                src="img/icon_season_autumn.webp"
+                alt="efterår"
+              />
+            </div>
+            <div class="lokation">
+              <p>Du finder mig typisk her: <span class="lokationApi"></span></p>
+            </div>
+          </article>
+        </template>
+      </section>
     </main>
     <footer></footer>
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
