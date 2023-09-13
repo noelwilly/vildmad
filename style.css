@@ -86,14 +86,8 @@ main a:hover {
 }
 
 /* råvarer */
-.produktliste {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 2rem;
-}
 
 .produktliste article {
-  border: 5px solid orange;
   background-color: #fffef4;
 }
 

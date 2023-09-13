@@ -1,70 +1,157 @@
-.produktliste {
-  margin: 50px;
+/*WEBSITE*/
+
+@media (min-width: 750px) {
+  .produktliste {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+  }
+
+  .produktliste article {
+    border: 4px solid #707070;
+  }
+
+  .vmProdukt {
+    border-radius: 12%;
+  }
+
+  .vmPic {
+    border-radius: 70%;
+  }
+
+  h3 {
+    font-family: "Lilita One", cursive;
+    color: #707070;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  h4,
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    font-weight: lighter;
+    color: #878787;
+    margin: 5px;
+  }
+
+  .season_container {
+    padding: 10px;
+    margin-left: 45px;
+  }
+
+  .season1,
+  .season2,
+  .season3 {
+    height: 50px;
+    margin: 4px;
+  }
+
+  hr {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border: 0.5px solid #5b5b5b;
+  }
+
+  .lokation {
+    margin-bottom: 22px;
+  }
+
+  .lokation p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    font-weight: lighter;
+    color: #878787;
+    margin: 5px;
+    margin-bottom: 10px;
+  }
+
+  .lokationApi {
+    font-weight: bold;
+  }
 }
 
-.produktliste article {
-  border: 4px solid #707070;
-}
+/*MOBILSITE*/
 
-.vmProdukt {
-  border-radius: 12%;
-}
+@media (max-width: 750px) {
+  .produktliste {
+    margin-top: 10px;
+  }
 
-.vmPic {
-  border-radius: 70%;
-}
+  .produktliste article {
+    border: 2px solid #707070;
+    margin: 30px;
+  }
 
-h3 {
-  font-family: "Lilita One", cursive;
-  color: #707070;
-  font-size: 25px;
-  text-align: center;
-}
+  .vmProdukt {
+    border-radius: 12%;
+  }
 
-h4,
-p {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
-  text-align: center;
-  font-weight: lighter;
-  color: #878787;
-  margin: 5px;
-}
+  .vmPic {
+    max-width: 82%;
+    margin-left: 20px;
+    border-radius: 70%;
+    margin-bottom: -50px;
+    margin-top: -10px;
+  }
 
-.season_container {
-  padding: 10px;
-  margin-left: 45px;
-}
+  h3 {
+    font-family: "Lilita One", cursive;
+    color: #707070;
+    font-size: 20px;
+    text-align: center;
+  }
 
-.season1,
-.season2,
-.season3 {
-  height: 50px;
-  margin: 4px;
-}
+  h4,
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: center;
+    font-weight: lighter;
+    color: #878787;
+    margin: 5px;
+  }
 
-hr {
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-top: 15px;
-  margin-bottom: 10px;
-  border: 0.5px solid #5b5b5b;
-}
+  .season_container {
+    padding: 10px;
+    margin-left: 45px;
+  }
 
-.lokation {
-  margin-bottom: 22px;
-}
+  .season1,
+  .season2,
+  .season3 {
+    height: 50px;
+    margin: 4px;
+  }
 
-.lokation p {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
-  text-align: center;
-  font-weight: lighter;
-  color: #878787;
-  margin: 5px;
-  margin-bottom: 10px;
-}
+  hr {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border: 0.5px solid #5b5b5b;
+  }
 
-.lokationApi {
-  font-weight: bold;
+  .lokation {
+    margin-bottom: 22px;
+  }
+
+  .lokation p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: center;
+    font-weight: lighter;
+    color: #878787;
+    margin: 5px;
+    margin-bottom: 10px;
+  }
+
+  .lokationApi {
+    font-weight: bold;
+  }
 }
