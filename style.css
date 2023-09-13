@@ -65,6 +65,16 @@ a:hover {
   transform: scale(150%);
 }
 
+.season1,
+.season2,
+.season3 {
+  opacity: 15%;
+}
+
+.seasonOn {
+  opacity: 100%;
+}
+
 /* INDEX */
 .logofront {
   border-radius: 50%;
@@ -110,9 +120,6 @@ main a:hover {
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
-<<<<<<< HEAD
-
-=======
   main {
     max-width: 1200px;
     margin: 0rem auto 0 auto;
@@ -120,7 +127,7 @@ main a:hover {
     justify-content: center;
     background-image: url(img/baggrund.svg);
   }
->>>>>>> produktside
+
   /*** menu ***/
   header {
     z-index: 100;

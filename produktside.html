@@ -21,21 +21,22 @@
     </header>
     <main>
         <section class="produktliste">
-            <template id="vmProduktTemplate"></template>
-            <article class="vmProdukt">
-                <img class="vmPic" src="img/testsvamp.png" alt="pic1">
-                <h3>Kantarel, almindelig</h3>
-                <h4>Svampe</h4>
-                <p class="kategori">Løvskov</p>
-                <div class="season">
-                    <img src="img/icon_season_autumn.webp" alt="efterår">
-                    <img src="img/icon_season_spring.webp" alt="forår">
-                    <img src="img/icon_season_summer.webp" alt="sommer">
-                </div>
-                <div class="lokation">
-                    <p>Du finder mig typisk her:<span></span></p>
-                </div>
-            </article>
+            <template id="vmProduktTemplate">
+                <article class="vmProdukt">
+                    <img class="vmPic" src="img/testsvamp.png" alt="pic1">
+                    <h3>Kantarel, almindelig</h3>
+                    <h4>Svampe</h4>
+                    <p class="kategori">Løvskov</p>
+                    <div class="season_container">
+                        <img class="season1" src="img/icon_season_spring.webp" alt="forår">
+                        <img class="season2" src="img/icon_season_summer.webp" alt="sommer">
+                        <img class="season3" src="img/icon_season_autumn.webp" alt="efterår">
+                    </div>
+                    <div class="lokation">
+                        <p>Du finder mig typisk her: <span class="lokationApi"></span></p>
+                    </div>
+                </article>
+            </template>
         </section>
     </main>
     <footer></footer>
