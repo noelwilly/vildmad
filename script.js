@@ -2,7 +2,10 @@ const url = "https://pexwboaieovroxjkczsc.supabase.co";
 
 const key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBleHdib2FpZW92cm94amtjenNjIiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTQ1MDEwNzgsImV4cCI6MjAxMDA3NzA3OH0.6BHSqoC3DM7BXM7_X4Syq5W3u_U5MKO7EPClIkefExs";
 
-fetch(url + "/rest/v1/vildapi", {
+const urlParams = new URLSearchParams(window.location.search);
+const category = urlParams.get("sankeland");
+
+fetch(url + "/rest/v1/vildapi?sankeland=eq." + category, {
   method: "GET",
   headers: {
     apikey: key,
@@ -52,14 +55,3 @@ navn: "Kantarel, almindelig"
 sankeland: "Løvskov"
 season: '["Sommer", "Efterår"]'
 subkategori: "Morbund" */
-
-/* function showData(items) {
-    console.log(items);
-    items.forEach((element) => {
-      //tjek om der er noget i kolonnen
-      if (element.tags) {
-        // hvis der er noget i kolonnen skal objekterne der indeholder "vand" vises
-        if (element.tags.includes("forår")) console.log(element);
-      }
-    });
-  } */
