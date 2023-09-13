@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 /** Mobile **/
-=======
 .h1_1 {
   text-align: center;
   font-family: "Lilita One", cursive;
@@ -14,7 +12,6 @@
   text-align: center;
   transition: transform 0.2s;
 }
->>>>>>> philips_branch
 
 @media (max-width: 767px) {
   .image-container {
