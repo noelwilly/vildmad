@@ -5,7 +5,7 @@ const key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZi
 const urlParams = new URLSearchParams(window.location.search);
 const category = urlParams.get("sankeland");
 
-fetch(url + "/rest/v1/vildapi?sankeland=eq." + category, {
+fetch(url + "/rest/v1/vildapi2?sankeland=eq." + category, {
   method: "GET",
   headers: {
     apikey: key,
