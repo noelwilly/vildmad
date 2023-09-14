@@ -78,6 +78,16 @@
     margin: 4px;
   }
 
+  .season_tekst p {
+    display: inline-block;
+    margin: 0 25px;
+  }
+
+  .season_tekst {
+    padding-top: 20px;
+    padding-left: 141px;
+  }
+
   .kategori {
     text-align: center;
   }
@@ -214,5 +224,14 @@
     margin: 20px;
     margin-top: -80px;
     padding: 10px;
+  }
+  .season_tekst p {
+    display: inline-block;
+    margin: 0 5px;
+  }
+
+  .season_tekst {
+    padding-top: 5px;
+    padding-left: 65px;
   }
 }
