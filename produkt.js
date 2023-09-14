@@ -5,7 +5,7 @@ const key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZi
 const urlParams = new URLSearchParams(window.location.search);
 const id = urlParams.get("id");
 
-fetch(url + "/rest/v1/vildapi?select=navn,season,billeder,kategori,sankeland,subkategori&id=eq." + id, {
+fetch(url + "/rest/v1/vildapi2?select=navn,season,billeder,kategori,sankeland,subkategori,beskrivelse,anvendelse&id=eq." + id, {
   method: "GET",
   headers: {
     apikey: key,
@@ -26,6 +26,9 @@ function showProduct(product) {
 
   document.querySelector(".lokationApi").textContent = product[0].subkategori;
 
+  document.querySelector(".box2 p").textContent = product[0].beskrivelse;
+  document.querySelector(".box3 p").textContent = product[0].anvendelse;
+
   // seasons
   if (product[0].season.includes("Forår")) {
     document.querySelector(".season1").classList.add("seasonOn");
@@ -39,10 +42,13 @@ function showProduct(product) {
 }
 
 /*
-billeder: "https://vildmadv2.vps.webdock.io/application/files/8916/2436/4262/Kantarel_ravarekort_app.png"​​
-id: 278
+anvendelse: "I Sydeuropa steger man velsmagende mælkehat hele i masser af olivenolie med hatten nedad. Du kan også flambere dem med kastanjer eller chili, eller bruge dem i en chutney med honning og abrikoser. Steg svampene og server dem lune på toastbrød - eller brug dem i en risotto med spinat, som fyld i en kraftig tomatsauce eller som ingrediens i en omelet. Velsmagende mælkehat egner sig også fortrinligt til at blive syltet og bevarer det markante, sprøde bid."
+beskrivelse: "Granmælkehat er sjældent over 2-7 cm høj med en op til 10 cm bred, orange hat, der bliver mere tragtformet med alderen, og en skæring i den afgiver orange væske."
+billeder: "https://vildmadv2.vps.webdock.io/application/files/8016/2437/1340/Granmaelkehat_ravarekort_app.png"
 kategori: "Svampe"
-navn: "Kantarel, almindelig"
-sankeland: "Løvskov"
+navn: "Granmælkehat"
+sankeland: "Nåleskov"
 season: '["Sommer", "Efterår"]'
+​​
+subkategori: "Græs ved skovstier"
 subkategori: "Morbund" */
