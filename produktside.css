@@ -78,6 +78,10 @@
     margin: 4px;
   }
 
+  .kategori {
+    text-align: center;
+  }
+
   .lokation {
     margin-bottom: 22px;
   }
@@ -156,6 +160,10 @@
     color: #707070;
     margin: 60px;
     margin-top: -10%;
+  }
+
+  .kategori {
+    text-align: center;
   }
 
   hr {
