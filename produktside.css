@@ -1,0 +1,218 @@
+/*WEBSITE*/
+
+@media (min-width: 750px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .vmProdukt {
+    border-radius: 100%;
+    background-color: #fffef4;
+    border: 1.5px solid #5b5b5b;
+    margin: 20%;
+    margin-top: 10%;
+  }
+  .vmPic {
+    max-width: 100%;
+    margin-left: 15%;
+    border-radius: 100%;
+    margin-top: 90px;
+  }
+
+  h3 {
+    font-family: "Lilita One", cursive;
+    color: #333333;
+    font-size: 50px;
+    text-align: center;
+    margin-top: -15%;
+    margin-bottom: 50px;
+    font-weight: lighter;
+  }
+
+  .box {
+    background-color: #fffef4;
+    border-radius: 20%;
+    margin: 10%;
+  }
+
+  h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+    color: #707070;
+    margin: 5px;
+    margin-top: 15%;
+  }
+
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #707070;
+    margin: 60px;
+    margin-top: 10%;
+  }
+
+  hr {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: -30px;
+    margin-bottom: 10px;
+    border: 0.5px solid #5b5b5b;
+  }
+
+  .season_container {
+    padding: 10px;
+    margin-left: 20%;
+    margin-right: 2%;
+    margin-top: 5%;
+    margin-bottom: -5%;
+  }
+
+  .season1,
+  .season2,
+  .season3 {
+    height: 100px;
+    margin: 4px;
+  }
+
+  .kategori {
+    text-align: center;
+  }
+
+  .lokation {
+    margin-bottom: 22px;
+  }
+
+  .lokation p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    font-weight: lighter;
+    color: #707070;
+    margin: 5px;
+    margin-top: 10%;
+  }
+
+  .lokationApi {
+    font-weight: bold;
+  }
+
+  .box1 {
+    background-color: #fffef4;
+    border-radius: 20%;
+    margin: 10%;
+    margin-top: -50px;
+    margin-left: 110%;
+    margin-right: -90%;
+  }
+}
+
+@media (max-width: 750px) {
+  .vmProdukt {
+    border-radius: 50%;
+    background-color: #fffef4;
+    border: 1.5px solid #5b5b5b;
+    margin: 20px;
+  }
+
+  .vmPic {
+    max-width: 70%;
+    margin-left: 50px;
+    border-radius: 100%;
+    margin-bottom: 10px;
+    margin-top: -10px;
+  }
+
+  h3 {
+    font-family: "Lilita One", cursive;
+    color: #333333;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-weight: lighter;
+  }
+
+  .box {
+    background-color: #fffef4;
+    border-radius: 20%;
+    margin: 20px;
+  }
+
+  h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bolder;
+    color: #707070;
+    margin: 40px;
+    margin-top: 10%;
+    padding: 20px;
+  }
+
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #707070;
+    margin: 60px;
+    margin-top: -10%;
+  }
+
+  .kategori {
+    text-align: center;
+  }
+
+  hr {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: -60px;
+    margin-bottom: 10px;
+    border: 0.5px solid #5b5b5b;
+  }
+
+  .season_container {
+    padding: 10px;
+    margin-left: 17%;
+    margin-right: 2%;
+    margin-top: 5%;
+    margin-bottom: -5%;
+  }
+
+  .season1,
+  .season2,
+  .season3 {
+    height: 60px;
+    margin: 4px;
+  }
+
+  .lokation {
+    margin-bottom: 22px;
+  }
+
+  .lokation p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: lighter;
+    color: #707070;
+    margin-top: 5%;
+    margin-bottom: 30%;
+    padding: 20px;
+  }
+
+  .lokationApi {
+    font-weight: bold;
+  }
+
+  .box1 {
+    background-color: #fffef4;
+    border-radius: 15%;
+    margin: 20px;
+    margin-top: -80px;
+    padding: 10px;
+  }
+}

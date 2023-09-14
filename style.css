@@ -87,17 +87,9 @@ main a:hover {
 
 /* råvarer */
 
-.produktliste article {
-  background-color: #fffef4;
-}
-
 .prodBoks {
   display: grid;
   gap: 1rem;
-}
-
-.soldOut {
-  opacity: 0.5;
 }
 
 .vmPic {
@@ -120,7 +112,7 @@ main a:hover {
     margin: 0rem auto 0 auto;
     display: flex;
     justify-content: center;
-    background-image: url(img/baggrund.svg);
+    background-image: url("img/baggrund.svg");
   }
 
   /*** menu ***/
@@ -138,7 +130,7 @@ main a:hover {
 
   .vmlogo {
     transform: scale(145%);
-    margin-left: 0rem;
+    margin-left: -5.5rem;
   }
 
   header img {

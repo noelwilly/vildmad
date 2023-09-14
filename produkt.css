@@ -2,77 +2,35 @@
 
 @media (min-width: 750px) {
   .produktliste {
-    margin: 50px;
+    margin: 20px;
+    padding: 20px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
   }
 
-  .produktliste article {
-    border: 4px solid #707070;
-  }
-
   .vmProdukt {
-    border-radius: 12%;
+    border-radius: 50%;
+    background-color: #fffef4;
+    margin-bottom: 30px;
+    border: 2px solid #5b5b5b;
   }
 
   .vmPic {
-    border-radius: 70%;
+    max-width: 100%;
+    margin-left: 12px;
+    border-radius: 100%;
+    margin-bottom: 5px;
   }
 
   h3 {
     font-family: "Lilita One", cursive;
-    color: #707070;
-    font-size: 25px;
+    color: #333333;
+    font-size: 22px;
     text-align: center;
-  }
-
-  h4,
-  p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    text-align: center;
+    margin-top: -30px;
+    margin-bottom: 50px;
     font-weight: lighter;
-    color: #878787;
-    margin: 5px;
-  }
-
-  .season_container {
-    padding: 10px;
-    margin-left: 45px;
-  }
-
-  .season1,
-  .season2,
-  .season3 {
-    height: 50px;
-    margin: 4px;
-  }
-
-  hr {
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 15px;
-    margin-bottom: 10px;
-    border: 0.5px solid #5b5b5b;
-  }
-
-  .lokation {
-    margin-bottom: 22px;
-  }
-
-  .lokation p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    text-align: center;
-    font-weight: lighter;
-    color: #878787;
-    margin: 5px;
-    margin-bottom: 10px;
-  }
-
-  .lokationApi {
-    font-weight: bold;
   }
 }
 
@@ -89,22 +47,26 @@
   }
 
   .vmProdukt {
-    border-radius: 12%;
+    border-radius: 50%;
+    background-color: #fffef4;
   }
 
   .vmPic {
-    max-width: 82%;
-    margin-left: 20px;
-    border-radius: 70%;
-    margin-bottom: -40px;
+    max-width: 70%;
+    margin-left: 50px;
+    border-radius: 100%;
+    margin-bottom: 10px;
     margin-top: -10px;
   }
 
   h3 {
     font-family: "Lilita One", cursive;
-    color: #707070;
+    color: #333333;
     font-size: 22px;
     text-align: center;
+    margin-top: -30px;
+    margin-bottom: 50px;
+    font-weight: lighter;
   }
 
   h4,
@@ -127,14 +89,6 @@
   .season3 {
     height: 50px;
     margin: 4px;
-  }
-
-  hr {
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 15px;
-    margin-bottom: 10px;
-    border: 0.5px solid #5b5b5b;
   }
 
   .lokation {
