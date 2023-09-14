@@ -1,5 +1,5 @@
 body {
-  background-image: url("http://noelwilliam.dk/kea2/07_web/vildmad/img/baggrund.svg");
+  background-image: url("img/baggrund.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -102,7 +102,7 @@ main a:hover {
 
 @media (max-width: 750px) {
   body {
-    background-image: url("http://noelwilliam.dk/kea2/07_web/vildmad/img/baggrund.svg");
+    background-image: url("img/baggrund.svg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -112,7 +112,7 @@ main a:hover {
     margin: 0rem auto 0 auto;
     display: flex;
     justify-content: center;
-    background-image: url(http://noelwilliam.dk/kea2/07_web/vildmad/img/baggrund.svg);
+    background-image: url("img/baggrund.svg");
   }
 
   /*** menu ***/
