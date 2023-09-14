@@ -43,6 +43,7 @@
     font-size: 30px;
     bottom: 20px; /* Adjust the distance from the bottom to add spacing */
     margin-top: 10px;
+    text-shadow: 3px 3px #000000;
   }
 }
 
