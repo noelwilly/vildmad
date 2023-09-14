@@ -1,5 +1,5 @@
 body {
-  background-image: url("/img/baggrund.svg");
+  background-image: url("img/baggrund.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -110,7 +110,7 @@ main a:hover {
 
 @media (max-width: 750px) {
   body {
-    background-image: url("/img/baggrund.svg");
+    background-image: url("img/baggrund.svg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
